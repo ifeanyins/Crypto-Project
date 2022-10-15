@@ -6,8 +6,6 @@
 
 .nav-bar {
     background-color: #F39B37;
-    display: flex;
-    justify-content: space-between;
     padding-top: 12px;
 }
 
@@ -15,19 +13,20 @@
     list-style-type: none;
     display: flex;
     height: 25px;
+    justify-content: space-around;
 }
 
 .ulright-nav {
     list-style-type: none;
     display: flex;
+    margin:  auto;
 }
 
 .right-nav {
-    margin-left: 600px;
+    margin-left: 500px;
 }
 
 .uleft-nav {
-    padding-left: 350px;
     display: flex;
     list-style-type: none;
 }
@@ -49,29 +48,29 @@
 
 .facebook {
     color: rebeccapurple;
-    padding-right: 7px;
+    padding-right: 10px;
 }
 
 .instagram {
     color: rebeccapurple;
-    padding-right: 7px;
+    padding-right: 10px;
 }
 
 .twitter {
     color: rebeccapurple;
-    padding-right: 7px;
+    padding-right: 10px;
 }
 
 .english {
     color: rebeccapurple;
-    padding-right: 7px;
+    padding-right: 10px;
     font-weight: bold;
     font-family: sans-serif;
 }
 
 .my-page {
     
-    padding-right: 7px;
+    padding-right: 10px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -83,7 +82,7 @@
 
 .logout {
     color: rebeccapurple;
-    padding-right: 7px;
+    padding-right: 10px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -202,7 +201,7 @@
 }
 
 .image-background {
-    background-image: url(/images/MotleyFool-TMOT-feccc6d4-bitcoin-logo.webp);
+    background-image: url(./images/MotleyFool-TMOT-feccc6d4-bitcoin-logo.webp);
     margin-top: 10px;
     width:8100px ;
     background-repeat: no-repeat;
