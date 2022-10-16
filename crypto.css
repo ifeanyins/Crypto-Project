@@ -426,43 +426,50 @@ li a:hover {
 
 .third-layer {
     background-color: #F29C37;
-    padding-left: 340px;
+    padding: 20px;
 }
 
 .invest-in {
     color: #fff;
     font-size: small;
-    margin-top: 20px;
     font-family: sans-serif;
-    margin-right: 350px;
 }
 
-.investandbtn {
-    display: flex;
-    padding-left: 90px;
+.inevest-text {
+    text-align: center;
 }
 
 .thirdlayer-paragraph {
     width: 640px;
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
     color: #fff;
     font-size: small;
     font-family: sans-serif;
     opacity: 80%;
-    padding-bottom: 30px;
-    padding-left: 5px;
-   
+    margin: auto;
+    padding-top: 10px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.hidden-lorem {
+    width: 690px;
+    text-align: center;
+    color: #fff;
+    /* font-size: small; */
+    font-family: sans-serif;
+    margin: auto;
+    line-height: 30px;
 }
 
 .thirdlayer-btn {
-    margin-top: 10px;
-    height: 30px;
-    width: 120px;
     font-family: sans-serif;
     background-color: #000;
     color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    display: flex;
 }
 
 .bitcoin-text {
