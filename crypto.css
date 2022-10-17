@@ -456,7 +456,6 @@ li a:hover {
     width: 690px;
     text-align: center;
     color: #fff;
-    /* font-size: small; */
     font-family: sans-serif;
     margin: auto;
     line-height: 30px;
@@ -498,7 +497,8 @@ li a:hover {
 .h-line {
     border: 1px solid #F49E3D;
     width: 40px;
-    margin-left: 730px;
+    display: flex;
+    margin: auto;
     margin-bottom: 20px;
 }
 
@@ -511,7 +511,7 @@ li a:hover {
 }
 
 .fifth-layer {
-    background-image: url(/images/back2.jpg);
+    background-image: url(./images/back2.jpg);
 }
 
 .main-p {
@@ -525,7 +525,7 @@ li a:hover {
 .mainp-line {
     border-bottom: 2px solid #F49E3D;
     width: 100px;
-    margin-left: 700px;
+    margin: auto;
     padding-top: 10px;
 }
 
@@ -747,7 +747,7 @@ li a:hover {
 .featuredline {
     border-bottom: 3px solid #F49E3D;
     width: 120px;
-    margin-left: 700px;
+    margin: auto;
     padding-top: 10px;
 }
 
@@ -812,7 +812,7 @@ li a:hover {
 .sponsors-line {
     border-bottom: 2px solid red;
     width: 200px;
-    margin-left: 660px;
+    margin: auto;
     margin-top: 8px;
 }
 
