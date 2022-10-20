@@ -909,7 +909,6 @@ li a:hover {
         list-style-type: none;
         display: flex;
         height: 25px;
-        /* justify-content: space-around; */
     }
     
     .ulright-nav {
@@ -1047,9 +1046,104 @@ li a:hover {
 
     .lorem-text {
         width: 80%;
-        margin-left: 40px;
-        margin-top: 10px;
+        margin-left: 33px;
+        margin-top: 30px;
         color: #fff;
         font-family: sans-serif;
     }
+
+    .button-div {
+        margin-left: 34px;
+        margin-top: 20px;
+        height: 400px;
+    }
+    
+    .thirdlayer-paragraph {
+        width: 440px;
+        color: #fff;
+        font-size: small;
+        font-family: sans-serif;
+        opacity: 80%;
+        margin: auto;
+        padding-top: 10px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .third-layer {
+        background-color: #F29C37;
+        padding: 3px;
+    }
+
+    .invest-in {
+        color: #fff;
+        font-size: small;
+        font-family: sans-serif;
+        padding-top: 10px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .thirdlayer-btn {
+        font-family: sans-serif;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .lorem-pgh {
+        opacity: 60%;
+        margin-bottom: 100px;
+        width: 350px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .fifthlayerdiv {
+        color: #fff;
+        text-align: center;
+        margin-top: 20px;
+        margin: 10px 100px;
+     }
+     
+    .fifthlayerbody {
+        display: block;
+    }
+
+    .lecture-div {
+        height: 200px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+    }
+    
+    .lecture-div:hover{
+        height: 200px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        border-radius: 15px;
+        border: 1px solid white;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .lecture {
+        font-family: sans-serif;
+        color: brown;
+        margin: 5px 0px;
+    }
+    
+    .lecture-text {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
 }
