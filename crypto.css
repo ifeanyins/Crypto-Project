@@ -1114,36 +1114,6 @@ li a:hover {
         display: block;
     }
 
-    .lecture-div {
-        height: 200px;
-        background-color: grey;
-        color: rebeccapurple;
-        opacity: 60%;
-        padding-top: 20px;
-        font-family: sans-serif;
-    }
     
-    .lecture-div:hover{
-        height: 200px;
-        background-color: grey;
-        color: rebeccapurple;
-        opacity: 60%;
-        padding-top: 20px;
-        font-family: sans-serif;
-        border-radius: 15px;
-        border: 1px solid white;
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .lecture {
-        font-family: sans-serif;
-        color: brown;
-        margin: 5px 0px;
-    }
-    
-    .lecture-text {
-        font-weight: bold;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
     
 }
