@@ -1143,6 +1143,68 @@ li a:hover {
         transition: all 0.5s ease-in-out;
     }
     
+    .lecture {
+        font-family: sans-serif;
+        color: brown;
+        margin: auto;
+    }
 
+    .desktop-icon {
+        color: #F09D39;
+        margin:auto;
+    }
+    
+    .lecture-text {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .bitcoin-icon {
+        color: #F09D39;
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .exhibition {
+        font-family: sans-serif;
+        color: brown;
+        margin: auto;
+    }
+    
+    .Crypto-exhibition {
+        height: 150px;
+        width: 350px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 2fr;
+        gap: 10px;
+    }
+    
+    .Crypto-exhibition:hover{
+        height: 200px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        border-radius: 15px;
+        margin-left: 10px;
+        border: 1px solid white;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .cryptoexb-text {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 25px;
+        font-size: 15px;
+    }
     
 }
