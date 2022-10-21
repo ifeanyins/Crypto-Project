@@ -607,14 +607,14 @@ li a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.bitcoin-icon {
+    color: #F09D39;
+}
+
 .exhibition {
     font-family: sans-serif;
     color: brown;
     margin: 5px 0px;
-}
-
-.bitcoin-icon {
-    color: #F09D39;
 }
 
 .Crypto-exhibition {
@@ -1107,7 +1107,9 @@ li a:hover {
         color: #fff;
         text-align: center;
         margin-top: 20px;
-        margin: 10px 100px;
+        margin: 10px 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
      }
      
     .fifthlayerbody {
@@ -1115,12 +1117,18 @@ li a:hover {
     }
 
     .lecture-div {
-        height: 200px;
+        height: 150px;
+        width: 350px;
         background-color: grey;
         color: rebeccapurple;
         opacity: 60%;
         padding-top: 20px;
         font-family: sans-serif;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 2fr;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        gap: 10px;
     }
     
     .lecture-div:hover{
@@ -1138,12 +1146,65 @@ li a:hover {
     .lecture {
         font-family: sans-serif;
         color: brown;
-        margin: 5px 0px;
+        margin: auto;
+    }
+
+    .desktop-icon {
+        color: #F09D39;
+        margin:auto;
     }
     
     .lecture-text {
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .bitcoin-icon {
+        color: #F09D39;
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .exhibition {
+        font-family: sans-serif;
+        color: brown;
+        margin: auto;
+    }
+    
+    .Crypto-exhibition {
+        height: 150px;
+        width: 350px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 2fr;
+        gap: 10px;
+    }
+    
+    .Crypto-exhibition:hover{
+        height: 200px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        border-radius: 15px;
+        margin-left: 10px;
+        border: 1px solid white;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .cryptoexb-text {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 25px;
+        font-size: 15px;
     }
     
 }
