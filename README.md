@@ -75,7 +75,7 @@ This project is [MIT](./LICENSE) licensed.
 
 ## Built With
 
-- HTML and CSS3.
+- HTML, CSS3 and Vanilla JS.
 
 ## Live Demo
 
