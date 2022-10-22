@@ -1157,6 +1157,8 @@ li a:hover {
     .lecture-text {
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        align-items: center;
     }
 
     .bitcoin-icon {
@@ -1205,6 +1207,186 @@ li a:hover {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 25px;
         font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .forum{
+        font-family: sans-serif;
+        color: brown;
+        margin: auto;
+    }
+
+    .forum-text {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        align-items: center;
     }
     
+    .comment {
+        color: #F09D39;
+        margin: auto;
+    }
+    
+    .forum-div {
+        height: 150px;
+        width: 350px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 2fr;
+        margin-bottom: 15px;
+    }
+    
+    .forum-div:hover{
+        height: 200px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        border-radius: 15px;
+        margin-left: 10px;
+        border: 1px solid white;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .workshop-h{
+        font-family: sans-serif;
+        color: brown;
+        margin: auto;
+    }
+    
+    .desktop {
+        color: #F09D39;
+        margin: auto;
+    }
+
+    
+    .workshop-text {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        align-items: center;
+    }
+    
+    .workshop-div {
+        height: 150px;
+        width: 350px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 2fr;
+        margin-bottom: 15px;
+    }
+    
+    .workshop-div:hover{
+        height: 200px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        border-radius: 15px;
+        margin-left: 10px;
+        border: 1px solid white;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .biti-text {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        align-items: center;
+    }
+
+    .bit-h{
+        font-family: sans-serif;
+        color: brown;
+        margin:auto;
+    }
+    
+    .link-icon {
+        color: #F09D39;
+        margin:auto;
+    }
+    
+    .bit-initate {
+        height: 150px;
+        width: 350px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 2fr;
+        margin-bottom: 15px;
+    }
+    
+    .bit-initate:hover{
+        height: 200px;
+        background-color: grey;
+        color: rebeccapurple;
+        opacity: 60%;
+        padding-top: 20px;
+        font-family: sans-serif;
+        border-radius: 15px;
+        margin-left: 10px;
+        border: 1px solid white;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .dg {
+        margin: 0px;
+        display: block;
+        margin-left: 10px;
+    }
+
+    .first-one {
+        font-weight: bold;
+        font-size: small;
+        font-family: sans-serif;
+        padding-left: 15px;
+    }
+    
+    .aaron {
+        font-size:x-large ;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    
+    .ming {
+        color: #F09D39;
+        font-weight: lighter;
+    }
+    
+    .featured-txt {
+        opacity: 70%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 30px;
+        margin-right: 10px;
+    }
+
+    .speakers-img {
+        height: 170px;
+        width: 160px;
+        padding-top: 10px;
+    }
+    
+    .image-down {
+        height: 170px;
+        width: 160px;
+        padding-top: 10px;
+    }
 }
