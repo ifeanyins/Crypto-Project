@@ -3,11 +3,11 @@
 
 # NS-Estate
 
-> A Website built with HTML and CSS3.
+> A Website built with HTML, CSS3 and Vanilla JS.
 
 ## Built With
 
-- HTML and CSS3.
+- HTML, CSS3 and Vanilla JS.
 
 ## Live Demo
 
