@@ -1485,4 +1485,12 @@ li a:hover {
     .lase {
        width: 170px;
     }
+
+    .hiddenparagraph-texts {
+        padding-left: 38px;
+        font-family: sans-serif;
+        line-height: 25px;
+        font-weight: bold;
+        width: 350px;
+    }
 }
