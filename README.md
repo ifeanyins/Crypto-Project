@@ -1,7 +1,5 @@
 # Crypto-Project
-[live Demo](https://ifeanyins.github.io/Crypto-Project/)
 
-# NS-Estate
 
 > A Website built with HTML, CSS3 and Vanilla JS.
 
@@ -10,8 +8,7 @@
 - HTML, CSS3 and Vanilla JS.
 
 ## Live Demo
-
-[Live Demo Link](https://ifeanyins.github.io/NS-Estate/#ns)
+[live Demo](https://ifeanyins.github.io/Crypto-Project/)
 
 ## ScreenShot
 
@@ -71,7 +68,7 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-> A Website built with HTML and CSS3.
+> A Website built with HTML, CSS3 and Vanilla JS.
 
 ## Built With
 
