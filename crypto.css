@@ -1389,4 +1389,100 @@ li a:hover {
         width: 160px;
         padding-top: 10px;
     }
+
+    .footer-icons {
+        margin-top: 40px;
+        height: 230px;
+        background-color: #000;
+        color: #fff;
+        opacity: 70%;
+    }
+
+    .our-sp {
+        padding-top: 30px;
+        font-family: sans-serif;
+        font-size: x-large;
+    }
+    
+    .sponsors-line {
+        border-bottom: 2px solid red;
+        width: 150px;
+        margin: auto;
+        margin-top: 8px;
+    }
+    
+    .footer-texts {
+        margin-top: 4px;
+        font-size: large;
+        font-family: sans-serif;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 9px;
+    }
+    
+    .footer-textss {
+        margin-top: 4px;
+        font-size: large;
+        font-family: sans-serif;
+        margin-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 6px;
+    }
+    
+    .quora-div {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .footer-iconsdf {
+        display: flex;
+        margin: 10px 20px;
+    }
+    
+    .btc-imgg {
+        border-radius: 50%;
+        margin-left: 20px;
+        background-size: contain;
+    }
+    
+    .bit-i {
+        margin-top: 5px;
+        line-height: 25px;
+        margin-left: 19px;
+        font-family: sans-serif;
+        font-weight: light;
+    }
+    
+    .leftfooter-img {
+        display: flex;
+    }
+    
+    .last-footer {
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .rightdiv-footer {
+       width: 230px;
+       margin-left: 40px;
+       font-family: sans-serif;
+       line-height: 20px;
+    }
+    
+    .last {
+        width: 170px;
+        font-size: medium;
+        font-weight: lighter;
+        padding-top: 15px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .tw {
+       width: 160px;
+    }
+
+    .lase {
+       width: 170px;
+    }
 }
