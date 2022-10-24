@@ -9,6 +9,10 @@
     padding-top: 12px;
 }
 
+.hamburger {
+    display: none;
+}
+
 .ul-nav {
     list-style-type: none;
     display: flex;
@@ -1288,6 +1292,10 @@ li a:hover {
         grid-template-columns: 0.5fr 1fr 2fr;
         margin-bottom: 15px;
     }
+
+    h1 {
+        padding-left: 5px;
+    }
     
     .workshop-div:hover{
         height: 200px;
@@ -1492,5 +1500,27 @@ li a:hover {
         line-height: 25px;
         font-weight: bold;
         width: 350px;
+    }
+
+    .hamburger {
+        display: inline-block;
+        font-size: 30px;
+        padding-left: 1px;
+        color: #000;
+    }
+
+    .lorem-text {
+        width: 80%;
+        margin-left: 20px;
+        margin-top: 30px;
+        color: #fff;
+        font-family: sans-serif;
+        line-height: 22px;
+    } 
+
+    .button-div {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 400px;
     }
 }
