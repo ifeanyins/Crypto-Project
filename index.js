@@ -64,17 +64,18 @@ let imgArr = [
 
 let generateImage =()=>{
   return (speakersImgTxt.innerHTML = imgArr.map((ns)=>{
-    return `
-    <div class="firstguest">
+    let { img, h2txt, h4txt, paragraph } = ns; 
+  return `
+  <div class="firstguest">
     <div class="speakers-img" id="speaker"> 
-        <img src=${ns.img} height="200px" alt="first guest"  class="speakers-img">
+        <img src=${img} height="200px" alt="first guest"  class="speakers-img">
     </div>
     <div class="first-one">
     let {img,h2txt,h4txt,paragraph} = x;
-        <h2 class="aaron"> ${ns.h2txt} </h2>
-        <h4 class="ming"> ${ns.h4txt} </h4>
+        <h2 class="aaron"> ${h2txt} </h2>
+        <h4 class="ming"> ${h4txt} </h4>
         <p class="featured-txt"> 
-        ${ns.paragraph}
+        ${paragraph}
         </p>
     </div>
 </div>

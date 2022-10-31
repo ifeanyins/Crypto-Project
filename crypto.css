@@ -190,21 +190,20 @@
 .request-btn {
     margin-top: 3px;
     margin-left: 15px;
-    height: 36px;
-    width: 160px;
+    padding: 12px 20px;
     background-color: #F39B37;
     color: #fff;
     font-weight: bolder;
     font-size: small;
     font-family: sans-serif;
     border: none;
+    margin-right: 50px;
 }
 
 .request-btn:hover {
     margin-top: 3px;
     margin-left: 15px;
-    height: 36px;
-    width: 160px;
+    padding: 12px 20px;
     background-color: #F39B37;
     color: #fff;
     font-weight: bolder;
